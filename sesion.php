@@ -3,7 +3,7 @@ date_default_timezone_set("America/Mexico_City");
 
 $hoy = date("Y-m-d H:i:s");
 
-include("config/mysql.php");
+include("mysql.php");
 
 $conn = mysqli_connect("$mysql_localhost", "$mysql_username", "$mysql_password", "$mysql_database");
 
@@ -55,7 +55,7 @@ if($username=="")
          <td><input type="TEXT" size="20" name="username"></td>
         </tr>
         <tr>
-         <td align="RIGHT"><font face="Verdana" size="2" color="WHITE"><b>Contraseña: </b></td>
+         <td align="RIGHT"><font face="Verdana" size="2" color="WHITE"><b>ContraseÃ±a: </b></td>
          <td><input type="PASSWORD" size="20" name="password"></td> 
         </tr>
         <tr>
@@ -115,7 +115,7 @@ if($username=="")
 	     <table cellpadding="8" bgcolor="red">
 	      <tr>
 	       <td bgcolor="#ffeeee" align="center">
-	        <b><font color=RED size=4>¡Error! </font><br>
+	        <b><font color=RED size=4>Â¡Error! </font><br>
 	        El nombre de usuario no esta registrado o el password es incorrecto</b><P>
 	       </td>
 	      </tr>
