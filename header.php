@@ -5,10 +5,7 @@
   <meta charset="UTF-8">
   <title>Servicio </title>
   <link rel="shortcut icon" href="img/elicon.ico">
-  
-  
   <link rel="stylesheet" type="text/css" href="config/stylesheet.css">
-  
   <script type="text/javascript" src="config/jquery-1.8.2.min.js"></script>
   <script type="text/javascript" src="config/javascript.js"></script>
  
